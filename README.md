@@ -4,30 +4,31 @@ Minimal Sinatra app with bootstrap
 
 ## Installation
 
-``bash
+```bash
 git clone http://github.com/supm4n/sinatra.git newProject
 cd newProject
 bundle install
-``
+```
+
 In a terminal window, start shotgun to automatically reload the webserver 
 when needed
 
-``bash
+```bash
 shotgun config.ru
-``
+```
 
 In another terminal window, start compass daemon to automatically compile sass 
 files
 
-``bash
+```bash
 compass watch
-``
+```
 
 Enjoy !
 
 ## File structure
 
-.
+```bash
 ├── Gemfile
 ├── Gemfile.lock
 ├── README.md
@@ -58,6 +59,7 @@ Enjoy !
 └── views
     ├── index.erb
     └── layout.erb
+```
 
 ## Gem used
 
