@@ -1,3 +1,5 @@
+.sass-cache/
+*.swp
 *.gem
 *.rbc
 .bundle
